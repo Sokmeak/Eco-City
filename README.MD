@@ -1,4 +1,3 @@
-```markdown
 # EcoCity - AI-Powered Sustainable Urban Living Platform
 
 <div align="center">
@@ -18,6 +17,7 @@
 ## 🚀 Features
 
 ### 🎯 **Core Functionality**
+
 - **Smart Travel Planner** - AI-powered route optimization for sustainable transportation
 - **Waste Intelligence Tracker** - Monitor and reduce waste with personalized insights
 - **Energy Optimization Dashboard** - Track consumption and discover saving opportunities
@@ -26,6 +26,7 @@
 - **AI Recommendations Engine** - Personalized tips for eco-friendly living
 
 ### 🔐 **Authentication & Onboarding**
+
 - **Multi-step Registration** - Progressive user onboarding with validation
 - **Social Login Integration** - Google, GitHub, and Apple authentication
 - **Comprehensive Profile Setup** - Personalized sustainability assessment
@@ -33,6 +34,7 @@
 - **Interest-based Personalization** - Tailored experience based on user preferences
 
 ### 🎨 **User Experience**
+
 - **Modern UI/UX** - Clean, responsive design with smooth animations
 - **Interactive Dashboards** - Real-time data visualization with charts
 - **Mobile-First Design** - Optimized for all device sizes
@@ -40,6 +42,7 @@
 - **Accessibility** - WCAG compliant with screen reader support
 
 ### 🤖 **AI Integration**
+
 - **OpenAI GPT-4** - Intelligent recommendations and insights
 - **Real-time Chat Assistant** - 24/7 sustainability support
 - **Predictive Analytics** - Forecast environmental impact
@@ -50,6 +53,7 @@
 ## 🛠️ Tech Stack
 
 ### **Frontend**
+
 - **Framework**: Next.js 15 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
@@ -59,6 +63,7 @@
 - **Animations**: Framer Motion (ready to integrate)
 
 ### **Backend & AI**
+
 - **API Routes**: Next.js API Routes
 - **AI Integration**: Vercel AI SDK
 - **LLM Provider**: OpenAI GPT-4
@@ -66,6 +71,7 @@
 - **Database**: Supabase (ready to integrate)
 
 ### **Development**
+
 - **Package Manager**: npm/yarn/pnpm
 - **Code Quality**: ESLint + Prettier
 - **Type Safety**: TypeScript strict mode
@@ -76,20 +82,21 @@
 ## 🚀 Quick Start
 
 ### **Prerequisites**
-- Node.js 18+ 
+
+- Node.js 18+
 - npm/yarn/pnpm
 - OpenAI API key (for AI features)
 
 ### **Installation**
 
 1. **Clone the repository**
+
 ```bash
 git clone https://github.com/yourusername/ecocity.git
 cd ecocity
 ```
 
 2. **Install dependencies**
-
 
 ```shellscript
 npm install
@@ -100,7 +107,6 @@ pnpm install
 ```
 
 3. **Environment Setup**
-
 
 ```shellscript
 cp .env.example .env.local
@@ -126,7 +132,6 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 
 4. **Run the development server**
 
-
 ```shellscript
 npm run dev
 # or
@@ -136,8 +141,7 @@ pnpm dev
 ```
 
 5. **Open your browser**
-Navigate to [http://localhost:3000](http://localhost:3000)
-
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
 ---
 
@@ -181,13 +185,11 @@ ecocity/
 - Community statistics and testimonials
 - Call-to-action sections
 
-
 ### **🔐 Authentication (`/auth/*`)**
 
 - **Sign In** (`/auth/signin`) - Email/password + social login
 - **Sign Up** (`/auth/signup`) - 4-step registration process
 - **Onboarding** (`/onboarding`) - 6-step profile setup
-
 
 ### **📊 Dashboard (`/dashboard`)**
 
@@ -197,14 +199,12 @@ ecocity/
 - Achievement system
 - Progress charts and analytics
 
-
 ### **🚗 Travel Planner (`/travel`)**
 
 - Route optimization for sustainability
 - Transportation mode comparison
 - CO₂ savings calculator
 - Real-time recommendations
-
 
 ### **♻️ Waste Tracker (`/waste`)**
 
@@ -213,14 +213,12 @@ ecocity/
 - Weekly goals and progress
 - Waste composition analysis
 
-
 ### **👥 Community (`/community`)**
 
 - Active challenges and competitions
 - Leaderboards and rankings
 - Community events
 - Social features
-
 
 ---
 
@@ -233,7 +231,6 @@ ecocity/
 - Personalized recommendations
 - Integration with user data
 
-
 ### **Smart Recommendations**
 
 - Energy saving tips
@@ -241,14 +238,12 @@ ecocity/
 - Waste reduction strategies
 - Product suggestions
 
-
 ### **Predictive Analytics**
 
 - Environmental impact forecasting
 - Goal achievement predictions
 - Trend analysis
 - Behavioral insights
-
 
 ---
 
@@ -262,7 +257,6 @@ ecocity/
 4. **Track Activities** - Log travel, waste, and energy usage
 5. **Join Community** - Participate in challenges and events
 
-
 ### **Daily Workflow**
 
 1. Check dashboard for daily insights
@@ -270,7 +264,6 @@ ecocity/
 3. Log waste and energy usage
 4. Get AI recommendations
 5. Participate in community challenges
-
 
 ---
 
@@ -294,7 +287,6 @@ vercel
 - **Railway**: One-click deployment
 - **Docker**: Use provided Dockerfile
 
-
 ---
 
 ## Configuration
@@ -304,11 +296,11 @@ vercel
 ```typescript
 // lib/ai-config.ts
 export const aiConfig = {
-  model: 'gpt-4',
+  model: "gpt-4",
   temperature: 0.7,
   maxTokens: 1000,
-  systemPrompt: 'You are a sustainability expert...'
-}
+  systemPrompt: "You are a sustainability expert...",
+};
 ```
 
 ### **Database Setup (Optional)**
@@ -325,12 +317,12 @@ npx supabase db push
 ```typescript
 // lib/auth-config.ts
 export const authConfig = {
-  providers: ['google', 'github', 'apple'],
+  providers: ["google", "github", "apple"],
   pages: {
-    signIn: '/auth/signin',
-    signUp: '/auth/signup'
-  }
-}
+    signIn: "/auth/signin",
+    signUp: "/auth/signup",
+  },
+};
 ```
 
 ---
@@ -362,14 +354,12 @@ npm run test:coverage
 - **Best Practices**: 100
 - **SEO**: 100
 
-
 ### **Optimization Features**
 
 - Image optimization with Next.js
 - Code splitting and lazy loading
 - Service worker for offline support
 - CDN integration for static assets
-
 
 ---
 
@@ -385,14 +375,12 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 4. Add tests if applicable
 5. Submit a pull request
 
-
 ### **Code Standards**
 
 - Follow TypeScript best practices
 - Use ESLint and Prettier
 - Write meaningful commit messages
 - Add JSDoc comments for functions
-
 
 ---
 
@@ -410,7 +398,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Tailwind CSS** - For utility-first styling
 - **Lucide** - For consistent iconography
 
-
 ---
 
 ## Support
@@ -419,7 +406,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Discord**: [Join our community](https://discord.gg/ecocity)
 - **Email**: [support@ecocity.com](mailto:support@ecocity.com)
 - **GitHub Issues**: [Report bugs](https://github.com/yourusername/ecocity/issues)
-
 
 ---
 
@@ -432,7 +418,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - ✅ Dashboard and tracking features
 - ✅ Community challenges
 
-
 ### **Phase 2 (Next)**
 
 - 🔄 Real database integration
@@ -440,14 +425,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🔄 Mobile app (React Native)
 - 🔄 Offline support
 
-
 ### **Phase 3 (Future)**
 
 - 📋 IoT device integration
 - 📋 Advanced analytics
 - 📋 Marketplace features
 - 📋 Enterprise solutions
-
 
 ---
 
@@ -457,8 +440,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 `<a href="https://docs.ecocity.com">`Documentation`</a>` •
 `<a href="https://github.com/yourusername/ecocity">`GitHub`</a>` •
 `<a href="https://twitter.com/ecocityapp">`Twitter`</a>`
-
-
 
 </div>```plaintext
 
@@ -478,5 +459,7 @@ This comprehensive README provides:
 12. **Future roadmap** and development plans
 
 The README is structured to help both developers and users understand the project quickly and get started with minimal friction.
+
+```
 
 ```
