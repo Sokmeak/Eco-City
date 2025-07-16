@@ -92,7 +92,7 @@
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/ecocity.git
+git clone https://github.com/Sokmeak/Eco-City.git
 cd ecocity
 ```
 
@@ -116,18 +116,17 @@ Add your environment variables:
 
 ```plaintext
 # AI Configuration
-OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_API_KEY=secret_key
 
 # Database (Optional - for production)
-DATABASE_URL=your_database_url_here
-
+DATABASE_URL=myurl
 # Authentication (Optional - for production)
-NEXTAUTH_SECRET=your_nextauth_secret_here
+NEXTAUTH_SECRET=nextauth_secret
 NEXTAUTH_URL=http://localhost:3000
 
 # Social Auth (Optional)
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
+GOOGLE_CLIENT_ID=google_client_id
+GOOGLE_CLIENT_SECRET=google_client_secret
 ```
 
 4. **Run the development server**
@@ -432,16 +431,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📋 Marketplace features
 - 📋 Enterprise solutions
 
----
 
-<div>`<p>`Made with 💚 for a sustainable future`</p>`
+<div><p>Made with 💚 for a sustainable future</p>
 
-`<a href="https://ecocity.com">`Website`</a>` •
+<a href="https://ecocity.com">`Website`</a>` •
 `<a href="https://docs.ecocity.com">`Documentation`</a>` •
-`<a href="https://github.com/yourusername/ecocity">`GitHub`</a>` •
+`<a href="https://github.com/team/ecocity">`GitHub`</a>` •
 `<a href="https://twitter.com/ecocityapp">`Twitter`</a>`
 
-</div>```plaintext
+</div>
 
 This comprehensive README provides:
 
