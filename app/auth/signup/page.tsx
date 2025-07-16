@@ -47,7 +47,7 @@ export default function SignUpPage() {
     confirmPassword: "",
     city: "",
     interests: [] as string[],
-    agreeToTerms: true,
+    agreeToTerms: false,
     subscribeNewsletter: true,
   });
   const [isLoading, setIsLoading] = useState(false);
@@ -107,7 +107,7 @@ export default function SignUpPage() {
         setError("Password does not meet all requirements");
         return;
       }
-    } else if (currentStep === 3) {
+    } else if (currentStep === 4) {
       if (!formData.agreeToTerms) {
         setError("Please agree to the terms and conditions");
         return;
